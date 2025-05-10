@@ -13,7 +13,7 @@ Tranfomers were first introduced with the goal of reducing sequential computatio
 An attention function can be described as mapping a query and a set of key-value pairs to an output, where the query, keys, values, and output are all vectors. The output is computed as a weighted sum of the values where the weight assigned to each value is computed by a compatibility function of the query with the corresponding key.
 
 
-## The model's structure is as follows:
+# The model's structure is as follows:
 
 An encoder maps an input sequence of symbol representations (x1,...,xn) to a sequence of continuous representations z = (z1,...,zn).
 Given z, the decoder then generates an output sequence (y1,...,ym) of symbols one element at a time.
@@ -24,6 +24,6 @@ The decoder has 6 identical layers, and each layer have two sub-layers: The firs
 The decoder has 6 identical layers. In addition to the two sub-layers in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head attention over the output of the encoder stack.
 
 
-# Tools Used:
+## Tools Used:
 
 PyTorch
