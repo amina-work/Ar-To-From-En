@@ -27,3 +27,7 @@ The decoder has 6 identical layers. In addition to the two sub-layers in each en
 ## Tools Used:
 
 PyTorch
+
+## Dataset Used:
+
+from : https://huggingface.co/datasets/sentence-transformers/parallel-sentences-talks
