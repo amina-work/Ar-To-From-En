@@ -31,3 +31,19 @@ PyTorch
 ## Dataset Used:
 
 from : https://huggingface.co/datasets/sentence-transformers/parallel-sentences-talks
+
+
+## progress: 
+stopped training model at : (after 3h)
+Processing epoch 00:   2%|2         | 337/14297 [2:26:04<107:40:09, 27.77s/it, loss=6.842]
+Processing epoch 00:   2%|2         | 338/14297 [2:26:18<108:31:52, 27.99s/it, loss=6.842]
+Processing epoch 00:   2%|2         | 338/14297 [2:26:33<108:31:52, 27.99s/it, loss=7.074]
+Processing epoch 00:   2%|2         | 339/14297 [2:26:47<109:59:01, 28.37s/it, loss=7.074]
+Processing epoch 00:   2%|2         | 339/14297 [2:27:02<109:59:01, 28.37s/it, loss=6.729]
+Processing epoch 00:   2%|2         | 340/14297 [2:27:16<110:25:34, 28.48s/it, loss=6.729]
+Processing epoch 00:   2%|2         | 340/14297 [2:27:31<110:25:34, 28.48s/it, loss=7.003]
+Processing epoch 00:   2%|2         | 341/14297 [2:27:46<112:11:18, 28.94s/it, loss=7.003]
+Processing epoch 00:   2%|2         | 341/14297 [2:28:01<112:11:18, 28.94s/it, loss=6.370]
+Processing epoch 00:   2%|2         | 342/14297 [2:28:13<110:52:47, 28.60s/it, loss=6.370]
+Processing epoch 00:   2%|2         | 342/14297 [2:28:26<110:52:47, 28.60s/it, loss=6.488]
+Processing epoch 00:   2%|2         | 343/14297 [2:28:37<104:58:46, 27.08s/it, loss=6.488]
