@@ -8,7 +8,7 @@ import math
 #the input embedding takes the inputs and convert it to embedding
 #Embedding is an input word tranformmed into a 512 sized vector
 
-class  InputEmbeddings(nn.Module):
+class InputEmbeddings(nn.Module):
 
     #constructor: size of model, how many words there are in the vocabulary
     def __init__(self, d_model: int, vocab_size:int):
@@ -50,7 +50,6 @@ class PositionalEncoding(nn.Module):
     def forward(self, x):
         x = x + (self.pe[:, :x.shape[1], :]).requires_grad_(False) #makes particular tensor not learn
         return self.dropout(x)
-
 
 class LayerNormalization(nn.Module):
 
